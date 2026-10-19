@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Los finales · Romeo y Julieta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Modern+Antiqua&family=Oldenburg&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header class="barra">
+<a class="reiniciar" href="index.html">↺ Reiniciar la historia</a>
+<div class="musica">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1J5CIzQAlgY?si=My8_IQXqxFbkWKLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</header>
+<main class="historia">
+<h1>Los finales</h1>
+<section id="tragico">
+<h2>Final trágico: la cripta</h2>
+<p>Romeo entra en la cripta, ve a Julieta y bebe el veneno junto a su cuerpo. Julieta despierta un instante tarde, encuentra a su esposo muerto y se clava su daga. Verona llora y las familias, demasiado tarde, hacen las paces.</p>
+<nav class="opciones">
+<a class="boton" href="index.html">Reiniciar la historia</a>
+<a class="boton" href="acto4.html#mantua">Volver a Mantua</a>
+</nav>
+</section>
+<section id="juntos">
+<h2>Final feliz: juntos</h2>
+<p>La carta llega a tiempo, o el fraile alcanza a Romeo. Julieta despierta en brazos de su esposo y huyen de Verona. En Mantua, entre olivos y un cielo limpio, empiezan una vida sin apellidos ni espadas.</p>
+<nav class="opciones">
+<a class="boton" href="index.html">Reiniciar la historia</a>
+<a class="boton" href="index.html#plaza">Probar otro destino</a>
+</nav>
+</section>
+<section id="descarte">
+<h2>Final amargo: el consuelo</h2>
+<p>Julieta te ama con todo su ser; para ti solo fue un puerto tras el desprecio de Rosalina. Con el tiempo la dejas. Ella queda en su balcón, esperando; tú buscas otra mirada.</p>
+<nav class="opciones">
+<a class="boton" href="index.html">Reiniciar la historia</a>
+<a class="boton" href="acto2.html#consuelo">Volver y escuchar a tu corazón</a>
+</nav>
+</section>
+<section id="reconciliacion">
+<h2>Final de paz: las casas se reconcilian</h2>
+<p>Montesco y Capuleto, ante el dolor evitado, se estrechan las manos. El Príncipe celebra la boda a la luz del día y Romeo y Julieta viven en Verona. La vieja disputa se vuelve una historia que los niños ya no entienden.</p>
+<nav class="opciones">
+<a class="boton" href="index.html">Reiniciar la historia</a>
+<a class="boton" href="acto2.html#lorenzo">Elegir otra decisión</a>
+</nav>
+</section>
+<section id="resignada">
+<h2>Final silencioso: el sí que duele</h2>
+<p>Julieta acepta a Paris y calla su secreto. Romeo, en el exilio, nunca sabrá la verdad. Dos vidas separadas por un silencio y un juramento que se pierde con los años.</p>
+<nav class="opciones">
+<a class="boton" href="index.html">Reiniciar la historia</a>
+<a class="boton" href="acto4.html#paris">Volver al compromiso</a>
+</nav>
+</section>
+<section id="exilio">
+<h2>Final humilde: un hogar sin apellidos</h2>
+<p>En una aldea lejana viven como campesinos: no tienen palacios, pero sí el sol de la mañana. Un día, un viajero trae noticias de Verona: los odios se aplacaron. Ya nadie los espera, y ellos eligieron su camino.</p>
+<nav class="opciones">
+<a class="boton" href="index.html">Reiniciar la historia</a>
+<a class="boton" href="acto4.html#huida">Volver a la huida</a>
+</nav>
+</section>
+</main>
+</body>
+</html>

@@ -1,0 +1,200 @@
+/* Romeo y Julieta · ficción interactiva · estilo romántico */
+:root {
+  --contorno: #F2E4E1;
+  --pared: #E5CAC3;
+  --patron: #E6E3D5;
+  --arbol: #4F804B;
+  --cielo: #D3E7F2;
+  --amarilla: #FFF587;
+  --lila: #E0C9FF;
+  --blanca: #FBF7FF;
+  --rosa: #FFDBF2;
+  --tinta: #4a3438;
+  --vino: #7a3e4b;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Lato', sans-serif;
+  color: var(--tinta);
+  background-color: var(--pared);
+  /* Pared con enrejado y florones de la época */
+  background-image:
+    radial-gradient(circle at 25% 25%, var(--patron) 0 5px, transparent 6px),
+    radial-gradient(circle at 75% 75%, var(--patron) 0 5px, transparent 6px),
+    linear-gradient(45deg, transparent 46%, var(--patron) 47% 53%, transparent 54%),
+    linear-gradient(-45deg, transparent 46%, var(--patron) 47% 53%, transparent 54%);
+  background-size: 64px 64px;
+}
+
+/* Ventanal con arco: cielo de mañana, parque, estatuas y flores */
+body::before {
+  content: "";
+  position: fixed;
+  top: 3vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(90vw, 880px);
+  height: 94vh;
+  border: 20px solid var(--contorno);
+  border-bottom-width: 28px;
+  border-radius: 999px 999px 0 0;
+  box-shadow: 0 0 0 6px #d6b4ac, 0 12px 40px rgba(90, 40, 40, .35), inset 0 0 30px rgba(0, 0, 0, .15);
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 600' preserveAspectRatio='xMidYMid slice'><rect width='400' height='600' fill='%23D3E7F2'/><g fill='%23fff' opacity='.85'><ellipse cx='90' cy='90' rx='60' ry='18'/><ellipse cx='125' cy='78' rx='38' ry='16'/><ellipse cx='300' cy='150' rx='70' ry='20'/><ellipse cx='270' cy='138' rx='36' ry='15'/><ellipse cx='200' cy='40' rx='45' ry='12'/></g><g fill='%234F804B'><circle cx='40' cy='330' r='48' opacity='.8'/><circle cx='120' cy='345' r='38' opacity='.65'/><circle cx='300' cy='335' r='44' opacity='.8'/><circle cx='372' cy='345' r='40' opacity='.65'/></g><rect y='360' width='400' height='240' fill='%234F804B' opacity='.92'/><path d='M165 600 L188 360 L212 360 L235 600Z' fill='%23E6E3D5'/><g fill='%23E6E3D5' stroke='%23F2E4E1' stroke-width='2'><rect x='50' y='425' width='34' height='60'/><rect x='316' y='425' width='34' height='60'/></g><g fill='%23FBF7FF'><circle cx='67' cy='398' r='11'/><path d='M55 412 H79 L83 425 H51Z'/><circle cx='333' cy='398' r='11'/><path d='M321 412 H345 L349 425 H317Z'/></g><g opacity='.95'><circle cx='30' cy='500' r='6' fill='%23FFF587'/><circle cx='55' cy='520' r='6' fill='%23E0C9FF'/><circle cx='100' cy='505' r='6' fill='%23FBF7FF'/><circle cx='125' cy='540' r='6' fill='%23FFDBF2'/><circle cx='80' cy='560' r='6' fill='%23FFF587'/><circle cx='140' cy='490' r='6' fill='%23E0C9FF'/><circle cx='20' cy='560' r='6' fill='%23FBF7FF'/><circle cx='260' cy='500' r='6' fill='%23FFDBF2'/><circle cx='290' cy='525' r='6' fill='%23FFF587'/><circle cx='340' cy='505' r='6' fill='%23E0C9FF'/><circle cx='370' cy='545' r='6' fill='%23FBF7FF'/><circle cx='310' cy='570' r='6' fill='%23FFDBF2'/><circle cx='255' cy='555' r='6' fill='%23E0C9FF'/><circle cx='385' cy='490' r='6' fill='%23FFF587'/></g></svg>") center / cover no-repeat;
+  z-index: 0;
+}
+
+/* Seto con flores al pie del ventanal */
+body::after {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+  background:
+    radial-gradient(circle at 15px 14px, var(--amarilla) 0 5px, transparent 6px),
+    radial-gradient(circle at 40px 24px, var(--lila) 0 5px, transparent 6px),
+    radial-gradient(circle at 62px 12px, var(--blanca) 0 5px, transparent 6px),
+    radial-gradient(circle at 25px 30px, var(--rosa) 0 5px, transparent 6px),
+    var(--arbol);
+  background-size: 80px 40px;
+  border-top: 3px solid var(--contorno);
+  z-index: 0;
+}
+
+.barra {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: .8rem;
+  width: min(88vw, 700px);
+  margin: 0 auto;
+  padding: .8rem 0 0;
+}
+
+.reiniciar {
+  padding: .45rem .9rem;
+  font-size: .95rem;
+  font-weight: 700;
+  color: var(--vino);
+  text-decoration: none;
+  background: var(--blanca);
+  border: 2px solid var(--contorno);
+  border-radius: 999px;
+}
+
+.reiniciar:hover,
+.reiniciar:focus-visible { background: var(--amarilla); }
+
+.musica iframe {
+  display: block;
+  width: 240px;
+  max-width: 100%;
+  height: 135px;
+  border: 3px solid var(--contorno);
+  border-radius: 8px;
+}
+
+.historia {
+  position: relative;
+  z-index: 1;
+  width: min(88vw, 700px);
+  margin: 1rem auto 4.5rem;
+  padding: 1.6rem 1.8rem 1.8rem;
+  background: rgba(251, 247, 255, .88);
+  border: 4px double #c9a39b;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(90, 40, 40, .25);
+}
+
+h1 {
+  margin: 0 0 1.2rem;
+  font-family: 'Modern Antiqua', serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--vino);
+}
+
+h2 {
+  margin: 0 0 .8rem;
+  font-family: 'Oldenburg', serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.3;
+  color: var(--arbol);
+}
+
+p {
+  margin: 0 0 1rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 0 1.2rem;
+  border: 6px solid var(--contorno);
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(90, 40, 40, .3);
+}
+
+/* Solo se muestra el nodo al que se llegó por el enlace */
+section { display: none; }
+.historia:has(:target) section:target { display: block; animation: aparecer .6s ease both; }
+.historia:not(:has(:target)) section:first-of-type { display: block; }
+
+@keyframes aparecer {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.opciones {
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+  margin-top: 1.3rem;
+}
+
+.boton {
+  display: block;
+  padding: .75rem 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  color: var(--tinta);
+  background: linear-gradient(var(--rosa), var(--lila));
+  border: 2px solid #fff;
+  border-radius: 999px;
+  box-shadow: 0 3px 8px rgba(90, 40, 40, .2);
+  transition: background .2s, transform .2s;
+}
+
+.boton:hover,
+.boton:focus-visible {
+  background: var(--amarilla);
+  transform: translateY(-2px);
+  outline: 2px solid var(--vino);
+}
+
+@media (max-width: 600px) {
+  .historia { padding: 1.1rem 1.1rem 1.4rem; }
+  h1 { font-size: 1.35rem; }
+  .musica iframe { width: 200px; height: 113px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  section { animation: none !important; }
+  .boton { transition: none; }
+}
