@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acto II: el balcón y la promesa · Romeo y Julieta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Modern+Antiqua&family=Oldenburg&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header class="barra">
+<a class="reiniciar" href="index.html">↺ Reiniciar la historia</a>
+<div class="musica">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1J5CIzQAlgY?si=My8_IQXqxFbkWKLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</header>
+<main class="historia">
+<h1>Acto II: el balcón y la promesa</h1>
+<section id="balcon">
+<h2>Bajo el balcón</h2>
+<p>Saltas el muro del jardín. Julieta aparece en su balcón y habla a la noche, sin saber que la escuchas. Dice que un nombre no importa si el amor es verdadero.</p>
+<nav class="opciones">
+<a class="boton" href="#declaracion">Revelarte y declarar tu amor</a>
+<a class="boton" href="#dudas">Dudar: ¿y si solo es un capricho?</a>
+</nav>
+</section>
+<section id="declaracion">
+<h2>La promesa</h2>
+<p>Julieta te mira y jura que su amor es tan hondo como el mar. Prometen casarse y se despiden con las luces del alba, cada uno temiendo que todo sea un sueño.</p>
+<nav class="opciones">
+<a class="boton" href="#lorenzo">Ir a ver a Fray Lorenzo</a>
+<a class="boton" href="#dudas">Pedirle un poco de tiempo</a>
+</nav>
+</section>
+<section id="dudas">
+<h2>La duda</h2>
+<p>Las palabras se te traban. Aún te duele Rosalina y Julieta lo nota en tu silencio: «Si es un juego, dímelo ahora». Todo depende de lo que respondas.</p>
+<nav class="opciones">
+<a class="boton" href="#declaracion">Entregarte al corazón</a>
+<a class="boton" href="#consuelo">Quedarte con la ligereza de la noche</a>
+</nav>
+</section>
+<section id="consuelo">
+<h2>El consuelo</h2>
+<p>Rosalina sigue en tu mente, pero Julieta te acoge con ternura y entrega todo su corazón. Tú, en cambio, la miras como un descanso, una mujer más para curar un orgullo herido.</p>
+<nav class="opciones">
+<a class="boton" href="finales.html#descarte">Seguir con ella sin amarla</a>
+<a class="boton" href="#lorenzo">Confesar tu confusión a Fray Lorenzo</a>
+</nav>
+</section>
+<section id="lorenzo">
+<h2>El consejo de Fray Lorenzo</h2>
+<p>En su celda, el fraile te escucha entre hierbas y frascos. Cree que esta boda podría reconciliar a las dos casas, aunque teme la prisa. «Quien corre, tropieza», advierte.</p>
+<nav class="opciones">
+<a class="boton" href="#boda">Casarse en secreto</a>
+<a class="boton" href="acto4.html#paz">Convencerlo de revelar todo a las familias</a>
+</nav>
+</section>
+<section id="boda">
+<h2>La boda secreta</h2>
+<p>Al atardecer, Julieta llega con la Nodriza. Fray Lorenzo une sus manos ante el altar. Eres esposo; ella, esposa. Nadie en Verona lo sabe.</p>
+<nav class="opciones">
+<a class="boton" href="acto3.html#calle">Salir a la plaza, feliz</a>
+<a class="boton" href="acto3.html#noche">Pasar la noche a su lado</a>
+</nav>
+</section>
+</main>
+</body>
+</html>

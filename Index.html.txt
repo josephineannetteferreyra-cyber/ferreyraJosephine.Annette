@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Romeo y Julieta: dos casas, un destino · Romeo y Julieta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Modern+Antiqua&family=Oldenburg&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header class="barra">
+<a class="reiniciar" href="index.html">↺ Reiniciar la historia</a>
+<div class="musica">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1J5CIzQAlgY?si=My8_IQXqxFbkWKLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</header>
+<main class="historia">
+<h1>Romeo y Julieta: dos casas, un destino</h1>
+<section id="inicio">
+<h2>Verona, un amanecer de verano</h2>
+<img src="imagen_de_romeo_y_julieta.jpg" alt="Romeo y Julieta se besan en un balcón de piedra, ella con vestido claro y él con jubón oscuro y calzas verdes">
+<p>Dos familias, los Montesco y los Capuleto, arrastran un odio antiguo por las calles de Verona. Tú serás Romeo, un joven de corazón inquieto, y cada decisión tejerá un destino distinto. El amor y la espada están a punto de cruzarse.</p>
+<nav class="opciones">
+<a class="boton" href="#plaza">Pasear por la plaza</a>
+<a class="boton" href="acto1.html#baile">Ir directo al baile de los Capuleto</a>
+</nav>
+</section>
+<section id="plaza">
+<h2>La plaza de Verona</h2>
+<p>Los criados de ambas casas se insultan junto a la fuente. Benvolio, tu primo, te cuenta que Rosalina, la dama que amas, no te corresponde, y que esta noche hay un baile de máscaras en casa Capuleto.</p>
+<nav class="opciones">
+<a class="boton" href="acto1.html#baile">Colarte en el baile con una máscara</a>
+<a class="boton" href="#inicio">Volver al amanecer</a>
+</nav>
+</section>
+</main>
+</body>
+</html>
+ 
