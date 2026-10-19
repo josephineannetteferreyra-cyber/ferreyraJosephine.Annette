@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acto III: la espada y el destierro · Romeo y Julieta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Modern+Antiqua&family=Oldenburg&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header class="barra">
+<a class="reiniciar" href="index.html">↺ Reiniciar la historia</a>
+<div class="musica">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1J5CIzQAlgY?si=My8_IQXqxFbkWKLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</header>
+<main class="historia">
+<h1>Acto III: la espada y el destierro</h1>
+<section id="calle">
+<h2>La plaza al mediodía</h2>
+<p>Tebaldo y Mercutio, tu amigo, se enfrentan con las espadas desnudas. El calor hierve la sangre y la plaza se vacía. Tu mano duda entre la razón y el orgullo.</p>
+<nav class="opciones">
+<a class="boton" href="#mediar">Mediar entre ellos</a>
+<a class="boton" href="#mercutio">Dejar que se batan</a>
+</nav>
+</section>
+<section id="mediar">
+<h2>Entre las espadas</h2>
+<p>Te interpones con los brazos abiertos. Tebaldo aprovecha el movimiento y hiere a Mercutio por debajo de tu brazo. Mercutio se tambalea.</p>
+<nav class="opciones">
+<a class="boton" href="#mercutio">Atender al amigo herido</a>
+<a class="boton" href="acto4.html#paz">Gritar que Tebaldo es ahora familia y pedir paz</a>
+</nav>
+</section>
+<section id="mercutio">
+<h2>La muerte de Mercutio</h2>
+<p>Mercutio cae y, entre bromas amargas, maldice a ambas casas. Muere en tus brazos. Dentro de ti algo se rompe y el odio se enciende.</p>
+<nav class="opciones">
+<a class="boton" href="#venganza">Vengarlo</a>
+<a class="boton" href="#destierro">Arrodillarte ante el Príncipe Escalus</a>
+</nav>
+</section>
+<section id="venganza">
+<h2>La venganza</h2>
+<p>Tu espada alcanza a Tebaldo y lo derriba. Es el primo de tu esposa. El silencio cae sobre la plaza: ganaste un duelo y perdiste la paz.</p>
+<nav class="opciones">
+<a class="boton" href="#destierro">Esperar al Príncipe</a>
+<a class="boton" href="acto4.html#mantua">Huir directamente a Mantua</a>
+</nav>
+</section>
+<section id="destierro">
+<h2>La sentencia</h2>
+<p>El Príncipe te destierra: si vuelves a Verona, morirás. Reprende a ambas casas por alimentar el odio. Solo te queda una noche con Julieta.</p>
+<nav class="opciones">
+<a class="boton" href="#noche">Ver a Julieta antes de partir</a>
+<a class="boton" href="acto4.html#mantua">Partir a Mantua sin despedirte</a>
+</nav>
+</section>
+<section id="noche">
+<h2>La alondra</h2>
+<p>Subes a la alcoba de Julieta por una escalera de cuerda. Entre abrazos, la alondra anuncia el alba y la realidad se asoma: la ciudad está llena de espadas y secretos.</p>
+<nav class="opciones">
+<a class="boton" href="acto4.html#huida">Proponerle huir juntos de Verona</a>
+<a class="boton" href="acto4.html#mantua">Despedirte y partir a Mantua</a>
+<a class="boton" href="acto4.html#paris">Dejar que Julieta enfrente sola su compromiso con Paris</a>
+</nav>
+</section>
+</main>
+</body>
+</html>

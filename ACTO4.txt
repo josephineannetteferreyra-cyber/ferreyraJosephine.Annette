@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acto IV: las decisiones finales · Romeo y Julieta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Modern+Antiqua&family=Oldenburg&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header class="barra">
+<a class="reiniciar" href="index.html">↺ Reiniciar la historia</a>
+<div class="musica">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1J5CIzQAlgY?si=My8_IQXqxFbkWKLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</header>
+<main class="historia">
+<h1>Acto IV: las decisiones finales</h1>
+<section id="paris">
+<h2>El compromiso con Paris</h2>
+<p>El señor Capuleto, sin saber del matrimonio secreto, promete a Julieta al conde Paris para el jueves. Julieta, acorralada, debe elegir entre desobedecer o callar.</p>
+<nav class="opciones">
+<a class="boton" href="#pocion">Pedir ayuda a Fray Lorenzo</a>
+<a class="boton" href="#huida">Proponer a Romeo huir juntos</a>
+<a class="boton" href="finales.html#resignada">Resignarse y aceptar a Paris</a>
+</nav>
+</section>
+<section id="pocion">
+<h2>El frasco de Fray Lorenzo</h2>
+<p>El fraile ofrece una poción que simulará la muerte durante cuarenta y dos horas. Julieta despertará en la cripta y Romeo la esperará. Todo depende de una carta.</p>
+<nav class="opciones">
+<a class="boton" href="#carta">Enviar la carta a Mantua con Fray Juan</a>
+<a class="boton" href="#huida">Cambiar de plan y huir antes</a>
+</nav>
+</section>
+<section id="carta">
+<h2>La carta que no llegó</h2>
+<p>Fray Juan queda retenido por la peste y la carta no sale de Verona. Mientras Julieta duerme en la cripta, en Mantua la noticia llega por otra boca: Julieta ha muerto.</p>
+<nav class="opciones">
+<a class="boton" href="#mantua">Seguir a Romeo en Mantua</a>
+<a class="boton" href="finales.html#juntos">Imaginar que el mensajero llegó a tiempo</a>
+</nav>
+</section>
+<section id="mantua">
+<h2>Mantua</h2>
+<p>Baltasar llega a caballo con la noticia de que Julieta yace en el panteón. Una luz fría atraviesa a Romeo. En la calle, un boticario vende lo que la ley prohíbe.</p>
+<nav class="opciones">
+<a class="boton" href="finales.html#tragico">Comprar el veneno y correr a Verona</a>
+<a class="boton" href="finales.html#juntos">Dudar y cabalgar primero a ver a Fray Lorenzo</a>
+</nav>
+</section>
+<section id="huida">
+<h2>El camino de la huida</h2>
+<p>Con capas oscuras y un caballo, salen por la puerta norte de Verona antes del alba. Detrás quedan las casas, las espadas y los apellidos. Delante, el campo abierto.</p>
+<nav class="opciones">
+<a class="boton" href="finales.html#juntos">Cruzar los campos hasta Mantua y empezar de nuevo</a>
+<a class="boton" href="finales.html#exilio">Esconderse en una aldea humilde y lejana</a>
+</nav>
+</section>
+<section id="paz">
+<h2>Ante los Príncipes</h2>
+<p>Revelas el matrimonio ante ambas familias y el Príncipe Escalus. Se hace un silencio largo. La noticia puede abrir una paz o desatar una ira mayor.</p>
+<nav class="opciones">
+<a class="boton" href="finales.html#reconciliacion">Los patriarcas escuchan, conmovidos</a>
+<a class="boton" href="#paris">Capuleto se enfurece y casa a Julieta con Paris</a>
+</nav>
+</section>
+</main>
+</body>
+</html>

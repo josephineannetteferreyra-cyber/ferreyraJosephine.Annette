@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acto I: el baile de máscaras · Romeo y Julieta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Modern+Antiqua&family=Oldenburg&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header class="barra">
+<a class="reiniciar" href="index.html">↺ Reiniciar la historia</a>
+<div class="musica">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1J5CIzQAlgY?si=My8_IQXqxFbkWKLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</header>
+<main class="historia">
+<h1>Acto I: el baile de máscaras</h1>
+<section id="baile">
+<h2>Una máscara entre los Capuleto</h2>
+<p>Entras al salón con el rostro cubierto. Hay luz de velas, música de laúdes y mil miradas. A un lado ves a Rosalina; al otro, una joven vestida de blanco que parece iluminar la sala.</p>
+<nav class="opciones">
+<a class="boton" href="#julieta">Acercarte a la joven de blanco</a>
+<a class="boton" href="#rosalina">Buscar a Rosalina una vez más</a>
+</nav>
+</section>
+<section id="julieta">
+<h2>Un beso entre la música</h2>
+<p>Tomas la mano de la joven y las palabras salen solas, como versos. Ella responde con la misma gracia y, entre los laúdes, sus labios se encuentran con los tuyos en un primer beso.</p>
+<nav class="opciones">
+<a class="boton" href="#nodriza">Dejar que la Nodriza interrumpa</a>
+<a class="boton" href="#tebaldo">Notar que alguien os observa</a>
+</nav>
+</section>
+<section id="rosalina">
+<h2>El desdén de Rosalina</h2>
+<p>Rosalina apenas te mira y se aleja del brazo de otro invitado. Herido en el orgullo, ves de nuevo a la joven de blanco, que te sonríe sin saber que podrías verla solo como un consuelo.</p>
+<nav class="opciones">
+<a class="boton" href="acto2.html#consuelo">Mirar a la joven como quien busca refugio</a>
+<a class="boton" href="#julieta">Acercarte a ella con sinceridad</a>
+</nav>
+</section>
+<section id="nodriza">
+<h2>La verdad de la Nodriza</h2>
+<p>La Nodriza susurra que la joven es Julieta, hija del señor Capuleto. La enemiga de tu sangre es ahora la dueña de tus pensamientos.</p>
+<nav class="opciones">
+<a class="boton" href="acto2.html#balcon">Ir al jardín de los Capuleto esta noche</a>
+<a class="boton" href="#tebaldo">Esconderte de la mirada de Tebaldo</a>
+</nav>
+</section>
+<section id="tebaldo">
+<h2>La furia de Tebaldo</h2>
+<p>Tebaldo, primo de Julieta, reconoce tu voz bajo la máscara y jura venganza. Solo la autoridad de su tío lo detiene esta noche.</p>
+<nav class="opciones">
+<a class="boton" href="acto2.html#balcon">Ignorar la amenaza y buscar a Julieta</a>
+<a class="boton" href="acto3.html#calle">Retarlo a duelo en plena calle</a>
+</nav>
+</section>
+</main>
+</body>
+</html>
